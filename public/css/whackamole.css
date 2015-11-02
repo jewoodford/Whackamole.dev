@@ -1,0 +1,43 @@
+body {
+	background: url(/img/meteorShower.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.box {
+	float: left;
+	height: 150px;
+	width: 150px;
+	border: solid #d60 2px;
+}
+
+.explosion {
+	background: url(/img/explosion.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#game {
+	width: 612px;
+	margin-left: 475px;
+	cursor: url(/img/missile.png), auto;
+
+}
+
+.animatedMole {
+	background: url(/img/meteor.png);
+	background-repeat: no-repeat;
+}
+
+#startBtn{
+	margin-left: 675px;
+}
+
+#timer {
+	color: blue;
+	font-size: 20px;
+}
+
+#score {
+	color: red;
+}
